@@ -1,0 +1,110 @@
+footer{
+    .footerlogo{
+        .flogoimg{
+            max-width: 99px;
+            max-height: 39px;
+            overflow: hidden;
+            img{
+               @extend %img;
+            }
+        }
+        margin-bottom: 20px;
+    }
+    .ftext{
+        letter-spacing: -0.1px;
+    font-size: 14px;
+    line-height: 150%;
+    color: $footercolor;
+    max-width: 305px;
+    margin-bottom: 32px;
+    }
+   #fbutton{
+    color:$footercolor;
+    letter-spacing: -.1px;
+    background-color: #0000;
+    border: 1px solid #e0e0e066;
+    border-radius: 12px;
+    padding: 16px 28px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    display: inline-block;
+    margin-bottom: 40px;
+    text-align: center;
+   }
+.flist{
+    margin-bottom: 40px;
+    .f-li{
+        margin-bottom: 24px;
+         a{
+            color:$footercolor;
+            letter-spacing: -.01em;
+            font-size: 14px;
+            line-height: 150%;
+            text-decoration: none;
+    }
+    }
+    .fhead{
+        color:$footercolor;
+    letter-spacing: 0;
+    font-size: 24px !important;
+    font-weight: 600;
+    line-height: 112%;
+    }
+}   
+.fimage{
+    .home{
+        img{@extend %img;
+        object-fit: contain;}
+    }
+}
+#fstart{
+    padding-top: 121.2px;
+padding-bottom: 150px;
+}
+
+.f-input{
+        color:#fff6;
+    background-color: #0000;
+    border: 1px #000;
+    border-bottom: 1px solid #fff6;
+    margin-bottom: 0;
+    padding: 0 0 12px;
+    vertical-align: middle;
+    height: 38px;
+width: 100%;
+font-size: 14px;
+    line-height: 1.42857;
+    margin-bottom: 40px;
+    outline: none;
+  
+
+}
+}
+.title{
+ 
+        color:$primary;
+        letter-spacing: -.03em;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 112%;
+        max-width: 446px;
+}
+.contactbutton{
+    padding: 8px 20px;
+    margin-bottom: 16px;
+    color:$footercolor;
+    letter-spacing: -.05em;
+    text-transform: uppercase;
+    background-color: #f7f7f71a;
+    border: 2px solid #ffffff1f;
+    border-radius: 28px;
+    margin-bottom: 16px;
+    padding: 8px 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    display: inline-flex;
+
+}

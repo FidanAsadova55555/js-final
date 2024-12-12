@@ -1,0 +1,30 @@
+{
+    "accordionData": [
+    {
+      "id": "1",
+      "title": "How long does it take to buy a home?",
+      "description": "The home-buying process typically takes 30 to 60 days from the time an offer is accepted, depending on factors like financing, inspections, and the closing process."
+    },
+    {
+      "id": "2",
+      "title": "How much should I save for a down payment?",
+      "description": "The home-buying process typically takes 30 to 60 days from the time an offer is accepted, depending on factors like financing, inspections, and the closing process."
+    },
+    {
+      "id": "3",
+      "title": "Do I need a real estate agent to sell my home?",
+      "description": "The home-buying process typically takes 30 to 60 days from the time an offer is accepted, depending on factors like financing, inspections, and the closing process."
+    },
+    {
+        "id": "4",
+        "title": "What should I look for during a home inspection?",
+        "description": "The home-buying process typically takes 30 to 60 days from the time an offer is accepted, depending on factors like financing, inspections, and the closing process."
+      },
+      {
+        "id": "5",
+        "title": "What is the first step in buying a home?",
+        "description": "The home-buying process typically takes 30 to 60 days from the time an offer is accepted, depending on factors like financing, inspections, and the closing process."
+      }
+      
+  ]
+}
