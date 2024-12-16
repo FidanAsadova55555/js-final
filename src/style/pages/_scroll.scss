@@ -1,0 +1,30 @@
+#proces{
+    .flexstartleft{
+        grid-column-gap: 30px !important;
+        grid-row-gap: 30px !important;
+        justify-content: space-between !important;
+        align-items: flex-start !important;
+        height: 500px !important;
+        padding-top: 40px !important;
+        display: flex !important;
+    }
+    .procesleft{
+        min-height: 300px;
+
+    }
+    .procesright{
+        position: sticky;
+        top: 20px; 
+        align-self: flex-start;
+        @media (max-width: 992px) {
+            position: relative; 
+        } 
+    .procesimg{
+        overflow: hidden;
+        img{
+            @extend %img;
+            transition:transform ease-in-out 0.3s;
+        }
+    }
+    }
+}

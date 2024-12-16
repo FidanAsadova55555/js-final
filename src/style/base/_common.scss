@@ -69,5 +69,18 @@ display: inline-flex;
 	font-size: 48px;
     font-weight: 600;
     line-height: 112%;
-
+	margin-bottom: 40px;
+	max-width: 570px;
+	
+		@media screen and (max-width: 991px) {
+				font-size: 40px;
+		
+		}
+		@media screen and (max-width: 767px) {
+	
+			font-size: 30px;
+		}
+}
+a{
+	text-decoration:none;color: inherit; 
 }

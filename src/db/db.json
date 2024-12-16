@@ -26,5 +26,106 @@
         "description": "The home-buying process typically takes 30 to 60 days from the time an offer is accepted, depending on factors like financing, inspections, and the closing process."
       }
       
-  ]
+  ],
+  "swiperData": [
+    {
+      "id": "1",
+      "header": "Their attention to detail market expertise made all the difference."
+,
+      "text": "Their dedication and commitment to finding the right property were evident throughout. I highly recommend their services to anyone looking to buy or sell. I’m thrilled with my new investment this new property!",
+      "name":"David Martinez",
+      "location":"San Jose, South Dakota",
+      "img":"https://cdn.prod.website-files.com/670010141e02b62e6f054e13/670224e217d36d0f9d6431a3_testimonials-thumb-1-p-500.jpg"
+    },
+    {
+      "id":"2",
+      "header":"An exceptional experience from start to finish!",
+      "text":"From the first meeting to the closing, they were professional, knowledgeable, and always available to answer our questions. I couldn’t be happier with my new home! They listened to what I was looking for and showed me properties needs perfectly.",
+      "name":"James Thompson",
+      "location":"Dallas, Texas",
+      "img":"https://cdn.prod.website-files.com/670010141e02b62e6f054e13/670224e2dba4f045e5fbe423_testimonials-thumb-2-p-500.jpg"
+
+    },
+    {
+      "id": "3",
+      "header":"Exceptional service and outstanding results.",
+      "text":"The team’s marketing strategy and negotiation skills exceeded my expectations. I couldn’t be more pleased with the outcome. I never felt rushed or pressured, and they were always willing to go the extra mile to find properties that matched my vision.",
+      "name":"Olivia Carter",
+      "location":"Boston, Florida",
+      "img":"https://cdn.prod.website-files.com/670010141e02b62e6f054e13/670224e2671d7cf571ff35b2_testimonials-thumb-3.jpg"
+
+    }
+      
+  ],
+  "blogdetail": [
+    {
+      "id": 1,
+      "title": "Exploring the most exclusive properties around the world",
+      "description": "This design have it in named overall there, of as parts ourselves, coast little mathematicians lay as know that in you help of get handout on he to tones would be we've the yet outfits century a the temple.",
+      "writername":"Albert Flores",
+      "writerimg":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091bba6ca94b3d59b08a0d_blog-author.png",
+      "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092ffe55ec36dbf97d43d3_blog-banner-12-p-1600.jpg"
+
+    },
+    {
+      "id": 2,
+      "title": "Making your homeownership dreams a reality",
+      "description": "This design have it in named overall there, of as parts ourselves, coast little mathematicians lay as know that in you help of get handout on he to tones would be we've the yet outfits century a the temple.",
+      "writername":"Albert Flores",
+      "writerimg":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091bba6ca94b3d59b08a0d_blog-author.png",
+"img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092f918c442ac3f8f900a3_blog-banner-11-p-1600.jpg"
+
+    },
+    {
+      "id": 3,
+      "title": "Here’s how to decorate your new home from scratch",
+      "description": "This design have it in named overall there, of as parts ourselves, coast little mathematicians lay as know that in you help of get handout on he to tones would be we've the yet outfits century a the temple.",
+      "writername":"Albert Flores",
+      "writerimg":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091bba6ca94b3d59b08a0d_blog-author.png",
+"img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092f6be0919123c08607b1_blog-banner-10-p-1080.jpg"
+
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "blogimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092ffb13d7a3c1a189b27e_blog-thumb-12-p-800.jpg",
+      "txt": "Here’s how to decorate your new home from scratch",
+      "href":"blogDetail.html?id=1"
+    },
+    {
+      "id": 2,
+      "blogimg":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092f8dcaadf9e4eb92d372_blog-thumb-11-p-1080.jpg",
+      "txt": "Here’s how to decorate your new home from scratch",
+      "href":"blogDetail.html?id=2"
+
+
+    },
+    {
+      "id": 3,
+      "blogimg":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092f6513d7a3c1a18934c6_blog-thumb-10-p-500.jpg",
+      "txt": "Here’s how to decorate your new home from scratch",
+      "href":"blogDetail.html?id=3"
+
+    }
+  ],
+  
+    "scrollimages": [
+      {
+        "img":      "https://cdn.prod.website-files.com/670010141e02b62e6f054e13/67018c77e82d41323b7c69ca_process-thumb-1-p-500.jpg",
+        "id":1
+
+      },
+      {
+        "img":      "https://cdn.prod.website-files.com/670010141e02b62e6f054e13/67018c7528a69477c950bea9_process-thumb-2-p-800.jpg",
+"id":2
+      },
+      {
+"img":        "https://cdn.prod.website-files.com/670010141e02b62e6f054e13/67018c75a96327a0b77b36e9_process-thumb-3.jpg",
+"id":3
+
+      }
+    ]
+  
+  
 }

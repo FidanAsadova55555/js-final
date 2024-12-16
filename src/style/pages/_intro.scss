@@ -1,6 +1,6 @@
 .align {
     text-align: center;
-
+@include flexbox(center,center,column);
     
     .introbutton {
         @include flexbox(center, center, row, 10px);
@@ -33,16 +33,7 @@
     }
 
     .introimage {
-        opacity: 1;
-        transform: translate3d(0px, 0px, 0px);
-        transform-style: preserve-3d;
-        will-change: transform;
-        transition: transform 4s ease-in-out;
-
-         &.animate {
-            opacity: 1;
-            transform: translate3d(0px, -120px, 0px);
-        }
+    
 
         img {
             @extend %img;

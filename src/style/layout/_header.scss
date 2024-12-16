@@ -32,7 +32,7 @@ header{
 
     .nav-center {
         @include flexbox(center, center);
-
+z-index: 20;
         #nav-menu {
             display: flex;
             grid-column-gap: 56px;
@@ -235,6 +235,7 @@ i{
     #submenu{justify-content: space-between !important;
          #under {
         width: 100%;
+        z-index: 999;
     }
 }}
 }
