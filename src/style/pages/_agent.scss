@@ -1,0 +1,39 @@
+#agent{
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+          height: 391px;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 20px;
+        margin-bottom: 12px;
+        overflow: hidden;
+        &:hover{
+          img{
+            transform:scale(1.1) !important;
+
+          }
+        }
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all ease-in-out 0.3s;
+      }
+  
+      .swiper-slide {
+        width: 23%;
+      }
+  
+      /* Add smooth transition for wrapper */
+      .swiper-wrapper {
+        display: flex;
+        transition: transform 0.2s linear; /* Smooth and continuous transition */
+      }
+}

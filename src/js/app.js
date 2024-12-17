@@ -1,3 +1,4 @@
+
 const burgerMenu = document.querySelector(".burger-menu");
 const navCenter = document.querySelector(".nav-center");
 const navend = document.querySelector(".nav-end");
@@ -37,7 +38,7 @@ window.addEventListener('scroll', () => {
   introImage.style.transform =`translateY(${scrollY * -0.3}px)`;});
 
 //////////////////////////////////////////////////////////////
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".hola", {
   slidesPerView: "auto",
   centeredSlides: true,
   spaceBetween: 30,
@@ -143,7 +144,7 @@ const instance = axios.create({
   });
   /////////////////////////////////////////////////
  
-  const swiperD = document.querySelector(".swiper-wrapper");
+  const swiperD = document.querySelector(".holaswiper");
   if (!swiperD) {
     console.error("Element with classname 'swiper-wrapper' not found");
   }
@@ -289,3 +290,75 @@ window.addEventListener('scroll', () => {
         dynamicimg.src = images[0];
     }
 });
+//////////////////////////////////////////////////////////////////////////////////////////////
+var swiperss = new Swiper(".hi", {
+  slidesPerView: "auto",
+  centeredSlides: true,
+  spaceBetween: 30,
+  loop: true, 
+  autoplay: {
+    delay: 0, 
+    disableOnInteraction: false, 
+  },
+  speed: 2000, 
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    900: {
+      slidesPerView: "auto",
+      centeredSlides: true,
+    },
+    0: {
+      slidesPerView: 1,
+      centeredSlides: false,
+      spaceBetween: 10,
+    },
+  },
+});
+
+function runContinuous() {
+  setInterval(function() {
+    swiperss.slideNext();
+  }, 100); 
+}
+
+runContinuous(); 
+
+
+const agentD = document.querySelector("#salam");
+if (!agentD) {
+  console.error("Element with classname 'swiper-wrapper' not found");
+}
+const renderagentData = async (data) => {
+  if (data && agentD) {
+    data.forEach((agentData, index) => {
+      const agentHtml = `
+        <div key="${index}" class="swiper-slide">
+                          <img src="${agentData?.img}" alt="">
+
+</div>
+
+
+
+                        </div>
+                        
+      `;
+      agentD.innerHTML += agentHtml;
+    });
+
+   
+  } else {
+    console.error("No data or target element to render");
+  }
+};
+
+fetchData("/agentim", (data) => {
+  renderagentData(data);
+});
+console.log(swiperss);

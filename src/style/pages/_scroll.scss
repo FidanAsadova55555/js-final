@@ -10,14 +10,20 @@
     }
     .procesleft{
         min-height: 300px;
+        padding-left: 20px !important;
 
+        @media (max-width: 992px) {
+            padding: 0 20px !important; 
+        } 
     }
     .procesright{
         position: sticky;
         top: 20px; 
+        padding-right: 20px !important;
         align-self: flex-start;
         @media (max-width: 992px) {
-            position: relative; 
+            position: relative;
+            padding: 0 20px !important; 
         } 
     .procesimg{
         overflow: hidden;

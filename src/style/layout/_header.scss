@@ -275,5 +275,10 @@ i{
       &:hover::before {
         transform: scaleX(1);
       }
+      @media (max-width: 992px) {
+          
+            margin-bottom: 20px;
+        
+    }
     
 }
