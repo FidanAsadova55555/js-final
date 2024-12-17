@@ -337,10 +337,20 @@ if (!agentD) {
 }
 const renderagentData = async (data) => {
   if (data && agentD) {
-    data.forEach((agentData, index) => {
+    for (let i = 0; i < 10 && i < data.length; i++) {
+      const agentData = data[i];
       const agentHtml = `
-        <div key="${index}" class="swiper-slide">
-                     <a href="${agentData?.href}">     <img src="${agentData?.img}" alt=""></a>
+        <div key="${i}" class="swiper-slide">
+                     <a href="${agentData?.href}">   
+                     <div class="agentslideimg">
+                      <img src="${agentData?.img}" alt=""></div> 
+                      <div class="agentslidename">
+                      ${agentData?.name}
+                      </div>
+<div class="agentslideposition">
+                      ${agentData?.position}
+                      </div>
+                     </a>
 
 </div>
 
@@ -350,13 +360,43 @@ const renderagentData = async (data) => {
                         
       `;
       agentD.innerHTML += agentHtml;
-    });
-
-   
+    }
   } else {
     console.error("No data or target element to render");
   }
 };
+
+// const renderagentData = async (data) => {
+//   if (data && agentD) {
+//     data.forEach((agentData, index) => {
+//       const agentHtml = `
+//         <div key="${index}" class="swiper-slide">
+//                      <a href="${agentData?.href}">   
+//                      <div class="agentslideimg">
+//                       <img src="${agentData?.img}" alt=""></div> 
+//                       <div class="agentslidename">
+//                       ${agentData?.name}
+//                       </div>
+// <div class="agentslideposition">
+//                       ${agentData?.position}
+//                       </div>
+//                      </a>
+
+// </div>
+
+
+
+//                         </div>
+                        
+//       `;
+//       agentD.innerHTML += agentHtml;
+//     });
+
+   
+//   } else {
+//     console.error("No data or target element to render");
+//   }
+// };
 
 fetchData("/agentim", (data) => {
   renderagentData(data);

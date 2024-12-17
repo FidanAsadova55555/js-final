@@ -5,17 +5,28 @@
       }
   
       .swiper-slide {
-          height: 391px;
-        text-align: center;
-        font-size: 18px;
-        border-radius: 20px;
-        margin-bottom: 12px;
-        overflow: hidden;
+        text-align: left;
         &:hover{
           img{
             transform:scale(1.1) !important;
 
           }
+        }
+        .agentslideimg{
+          border-radius: 20px;
+        margin-bottom: 12px;
+        overflow: hidden;
+        }
+        .agentslidename{
+          color: black;
+          line-height: 112%;
+          font-weight: 600;
+          font-size: 24px;
+        }
+        .agentslideposition{
+          line-height: 150%;
+          font-size: 14px;
+          letter-spacing: -0.1px;
         }
       }
   
@@ -24,7 +35,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        transition: all ease-in-out 0.3s;
+        transition: all ease-in-out 0.5s;
       }
   
       .swiper-slide {
@@ -147,4 +158,39 @@ i{
 }}
 @media screen and (max-width:1330px) {
   padding: 0 20px;  }
+}
+#foreachagent{
+  .col-lg-4 {
+    text-align: left;
+    &:hover{
+      img{
+        transform:scale(1.1) !important;
+
+      }
+    }
+    .agentsimg{
+      border-radius: 20px;
+    margin-bottom: 12px;
+    overflow: hidden;
+     img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: all ease-in-out 0.5s !important;
+    }
+    }
+    .agentsname{
+      color: black;
+      line-height: 112%;
+      font-weight: 600;
+      font-size: 24px;
+    }
+    .agentsposition{
+      line-height: 150%;
+      font-size: 14px;
+      letter-spacing: -0.1px;
+    }
+  }
+
 }

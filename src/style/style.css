@@ -1104,15 +1104,26 @@ header #submenu #under li a {
   height: 100%;
 }
 #agent .swiper-slide {
-  height: 391px;
-  text-align: center;
-  font-size: 18px;
+  text-align: left;
+}
+#agent .swiper-slide:hover img {
+  transform: scale(1.1) !important;
+}
+#agent .swiper-slide .agentslideimg {
   border-radius: 20px;
   margin-bottom: 12px;
   overflow: hidden;
 }
-#agent .swiper-slide:hover img {
-  transform: scale(1.1) !important;
+#agent .swiper-slide .agentslidename {
+  color: black;
+  line-height: 112%;
+  font-weight: 600;
+  font-size: 24px;
+}
+#agent .swiper-slide .agentslideposition {
+  line-height: 150%;
+  font-size: 14px;
+  letter-spacing: -0.1px;
 }
 #agent .swiper-slide img {
   display: block;
@@ -1120,7 +1131,7 @@ header #submenu #under li a {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.5s;
 }
 #agent .swiper-slide {
   width: 23%;
@@ -1244,6 +1255,37 @@ header #submenu #under li a {
   #agentdetail {
     padding: 0 20px;
   }
+}
+
+#foreachagent .col-lg-4 {
+  text-align: left;
+}
+#foreachagent .col-lg-4:hover img {
+  transform: scale(1.1) !important;
+}
+#foreachagent .col-lg-4 .agentsimg {
+  border-radius: 20px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+#foreachagent .col-lg-4 .agentsimg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all ease-in-out 0.5s !important;
+}
+#foreachagent .col-lg-4 .agentsname {
+  color: black;
+  line-height: 112%;
+  font-weight: 600;
+  font-size: 24px;
+}
+#foreachagent .col-lg-4 .agentsposition {
+  line-height: 150%;
+  font-size: 14px;
+  letter-spacing: -0.1px;
 }
 
 footer .footerlogo {
