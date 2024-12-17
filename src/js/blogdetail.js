@@ -1,3 +1,37 @@
+
+const burgerMenu = document.querySelector(".burger-menu");
+const navCenter = document.querySelector(".nav-center");
+const navend = document.querySelector(".nav-end");
+const navbar = document.querySelector(".navbar");
+burgerMenu.innerHTML = '<i class="ri-menu-line"></i>';
+navbar.style.borderBottom = "none";
+
+burgerMenu.addEventListener("click", () => {
+    navCenter.classList.toggle("open");
+    navend.classList.toggle("open");
+
+    if (navCenter.classList.contains("open")) {
+        burgerMenu.innerHTML = '<i class="ri-close-line"></i>';
+        
+        navbar.style.borderBottom = "1px solid black";
+    } else {
+        burgerMenu.innerHTML = '<i class="ri-menu-line"></i>';
+        navbar.style.borderBottom = "none"; 
+    }
+});
+
+window.addEventListener("resize", () => {
+    if (window.innerWidth > 992) {
+        navCenter.classList.remove("open");
+        navend.classList.remove("open");
+        burgerMenu.innerHTML = '<i class="ri-menu-line"></i>';
+        navbar.style.borderBottom = "none";
+    }
+});
+/////////////////////////////////////////////////////////////////////////////
+
+
+
 const today = dayjs().format('MMMM D, YYYY');
 
 

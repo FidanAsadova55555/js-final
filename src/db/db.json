@@ -129,44 +129,129 @@
     "agentim":[
       {
           "id":1,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709188127b55df89d439264_agents-thumb-1-p-800.jpg"
+          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709188127b55df89d439264_agents-thumb-1-p-800.jpg",
+          "href":"agentdetail.html?id=1"
+
       },
       {
           "id":2,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709268e668c86b5b1862dc2_agents-thumb-2-p-800.jpg"
+          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709268e668c86b5b1862dc2_agents-thumb-2-p-800.jpg",
+          "href":"agentdetail.html?id=2"
+
       },
       {
           "id":3,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709271fadee83ccbf78ce61_agents-thumb-3-p-500.jpg"
+          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709271fadee83ccbf78ce61_agents-thumb-3-p-500.jpg",
+          "href":"agentdetail.html?id=3"
+
       },
       {
           "id":4,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092736c257ad43bc59d04c_agents-thumb-4-p-500.jpg"
+          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092736c257ad43bc59d04c_agents-thumb-4-p-500.jpg",
+          "href":"agentdetail.html?id=4"
+
       },
       {
           "id":5,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092753708e26b2cc914f71_agents-thumb-5-p-500.jpg"
+          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092753708e26b2cc914f71_agents-thumb-5-p-500.jpg",
+          "href":"agentdetail.html?id=5"
+
       },
       {
           "id":6,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092767c483e212c03ed4b0_agents-thumb-6-p-800.jpg"
+          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092767c483e212c03ed4b0_agents-thumb-6-p-800.jpg",
+          "href":"agentdetail.html?id=6"
+
       },
       {
           "id":7,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709278cb070d58e6f069d65_agents-thumb-7-p-800.jpg"
+          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709278cb070d58e6f069d65_agents-thumb-7-p-800.jpg",
+          "href":"agentdetail.html?id=7"
+
       },
       {
           "id":8,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927a1ef7c1e971bec7ace_agents-thumb-8-p-800.jpg"
+          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927a1ef7c1e971bec7ace_agents-thumb-8-p-800.jpg",
+          "href":"agentdetail.html?id=8"
+
       },
       {
           "id":9,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927b8f2d735d9d2d3c23c_agents-thumb-9-p-800.jpg"
+          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927b8f2d735d9d2d3c23c_agents-thumb-9-p-800.jpg",
+          "href":"agentdetail.html?id=9"
+
       },
       {
           "id":10,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927cf46eca33cec25b813_agents-thumb-10-p-800.jpg"
+          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927cf46eca33cec25b813_agents-thumb-10-p-800.jpg",
+          "href":"agentdetail.html?id=10"
+
       }
+  ],
+  "agentdetail":[
+
+
+    { "id":1,
+      "name":"Bryce Jones",
+    "position":"Client relations manager",
+    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709188127b55df89d439264_agents-thumb-1-p-800.jpg"
+   },
+   {"id":2,
+    "name":"Dentista Aguilda",
+    "position":"Luxury property expert",
+    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709268e668c86b5b1862dc2_agents-thumb-2-p-800.jpg"
+   },
+   {"id":3,
+    "name":"Agustín trabajo",
+    "position":"Lead property advisor",
+    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709271fadee83ccbf78ce61_agents-thumb-3-p-800.jpg"
+   },
+   {"id":4,
+    "name":"Cristela Estilista",
+    "position":"Senior real estate consultant",
+    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092736c257ad43bc59d04c_agents-thumb-4-p-800.jpg"
+   },
+   {"id":5,
+    "name":"Denya Contadora",
+    "position":"Real estate investment specialist",
+    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092753708e26b2cc914f71_agents-thumb-5-p-800.jpg"
+   },
+   {"id":6,
+    "name":"Alday Banamex",
+    "position":"Residential sales consultant",
+    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092767c483e212c03ed4b0_agents-thumb-6-p-800.jpg"
+   },
+   {"id":7,
+    "name":"Encarna Homie",
+    "position":"Commercial property agent",
+    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709278cb070d58e6f069d65_agents-thumb-7-p-800.jpg"
+   },
+   {"id":8,
+    "name":"Uziel Renta",
+    "position":"Property management specialist",
+    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927a1ef7c1e971bec7ace_agents-thumb-8-p-800.jpg"
+   },
+   {"id":9,
+    "name":"Valerie Ahorro",
+    "position":"Listing agent",
+    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927b8f2d735d9d2d3c23c_agents-thumb-9-p-800.jpg"
+   },
+   {"id":10,
+    "name":"Maestra Yazmin",
+    "position":"Investment property consultant",
+    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927cf46eca33cec25b813_agents-thumb-10-p-800.jpg"
+   },
+   {"id":11,
+    "name":"Tia Jaquelín",
+    "position":"Real estate valuation expert",
+    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927e6805762bc7ef24a2c_agents-thumb-11.jpg"
+   },
+   {"id":12,
+    "name":"Vidal Plantas",
+    "position":"Real estate finance consultant",
+    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/671fb384629520375c45d734_agents-theme-13.jpg"
+   }
+
   ]
   
   

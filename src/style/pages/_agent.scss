@@ -36,4 +36,115 @@
         display: flex;
         transition: transform 0.2s linear; /* Smooth and continuous transition */
       }
+      
+}
+#agentdetail{
+
+  .agentbox{
+    line-height: 1;
+margin-bottom: 60px;
+    background-color: #f7f7f7;
+border: 1px solid #e8e8e8;
+border-radius: 32px;
+padding: 40px;
+h4{
+  font-size: 36px;
+line-height: 120%;
+font-weight: 600;
+margin-bottom: 32px;
+@media screen and (max-width: 991px) {
+      font-size: 32px;
+  
+}
+@media screen and (max-width: 768px) {
+margin-top: 30px;
+}
+}
+.flexboxstart{
+  grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-rows: auto;
+    grid-template-columns: 170px 1fr;
+    grid-auto-columns: 1fr;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 12px;
+    display: grid;
+    @media screen and (max-width:578px) {
+	
+      @include flexbox(start,start,column,20px);
+}
+    h6{
+      
+
+      color:$textcolor;
+      font-size: 18px;
+      line-height: 150%;
+      @media screen and (max-width: 991px) {
+        font-size: 16px;
+    
+}
+    }
+    h5{
+      
+
+      color:black;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    @media screen and (max-width: 991px) {
+          font-size: 16px;
+      
+  }
+    }
+}
+.agentphoto{
+  border-radius: 20px;
+  overflow: hidden;
+  height: 100%;
+  img{
+    @extend %img;
+    
+
+  }
+  
+}
+.iconflex{
+  @include flexbox(flex-start,center,row,31px);
+  
+  i{
+
+    color:$icon;
+    transition: all 0.3s ease-in-out;
+    font-size:28px;
+&:hover{
+  transform: scale(1.2);
+  color:black;
+}  
+
+  }
+  @media screen and (max-width:992px) {
+	margin-bottom: 20px;
+
+}
+@media screen  and (max-width:576px) {
+  gap: 20px;
+i{
+  font-size: 20px;
+}
+  
+}
+}
+@media screen and (max-width: 991px) {
+      grid-column-gap: 30px;
+      grid-row-gap: 30px;
+      border-radius: 20px;
+      flex-flow: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 20px;
+  
+}}
+@media screen and (max-width:1330px) {
+  padding: 0 20px;  }
 }

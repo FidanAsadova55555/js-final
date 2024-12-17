@@ -40,3 +40,90 @@
         }
     }
 }
+#agentdetail{
+    p{
+        color:#333;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+max-width: 853px;
+margin-bottom: 20px;
+    }
+    h1{
+        font-size: 60px;
+        font-weight: 600;
+        color: $primary;
+        letter-spacing: -.5px;
+    line-height: 96%;
+    margin-bottom: 16px;
+    max-width: 940px;
+    }
+    .writer{
+        margin-bottom: 32px;
+        @include flexbox(flex-start,center,row,16px);
+        .hisphoto{
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+            overflow: hidden;
+img{
+    @extend %img;
+}
+        }
+        .hisdata{
+            @include flexbox(center,start,column);
+            .authorname{
+                letter-spacing: -.1px;
+    margin-bottom: 6px !important;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+            }
+
+        }
+    }
+    .blogphoto{
+        border-radius: 24px;
+    margin-bottom: 60px;
+    overflow: hidden;
+    img{
+        @extend %img;
+        transform: scale(1.03) !important;
+
+    }
+    }
+    .blogdetailheader{
+        font-size: 36px;
+    }
+    .blogtextphoto{
+        overflow: hidden;
+        border-radius: 28px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    img{
+        @extend %img;
+        transform: scale(1.03) !important;
+
+    }
+    }
+    blockquote {
+        background-color:black;
+        color:white;
+        letter-spacing: -.01em;
+        border-left-style: none;
+        border-radius: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 40px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 150%;
+    }
+}
+#responsiveblog{
+    @media screen and (max-width:992px) {
+        margin-bottom: 30px;
+    }
+}
