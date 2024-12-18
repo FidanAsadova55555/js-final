@@ -100,7 +100,7 @@ a {
   color: inherit;
 }
 
-footer .fimage .home img, footer .footerlogo .flogoimg img, #agentdetail .agentbox .agentphoto img, #proces .procesright .procesimg img, #blogdetail .blogtextphoto img, #blogdetail .blogphoto img, #blogdetail .writer .hisphoto img, #myblogs .blogimg img, #slider .testimonials-thumb-wrap img, #why .whyimg img, #mission .missionimg img, #agentdetail .blogtextphoto img, #agentdetail .blogphoto img, #agentdetail .writer .hisphoto img, .align .introimage img, header .navbar .nav-left .logo img {
+footer .fimage .home img, footer .footerlogo .flogoimg img, #services .servicebox .servicelogo img, #agentdetail .agentbox .agentphoto img, #proces .procesright .procesimg img, #blogdetail .blogtextphoto img, #blogdetail .blogphoto img, #blogdetail .writer .hisphoto img, #myblogs .blogimg img, #slider .testimonials-thumb-wrap img, #why .whyimg img, #mission .missionimg img, #agentdetail .blogtextphoto img, #agentdetail .blogphoto img, #agentdetail .writer .hisphoto img, .align .introimage img, header .navbar .nav-left .logo img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -1286,6 +1286,44 @@ header #submenu #under li a {
   line-height: 150%;
   font-size: 14px;
   letter-spacing: -0.1px;
+}
+
+#services .servicebox {
+  background-color: #f7f7f7;
+  border: 1px solid #e8e8e8;
+  border-radius: 20px;
+  padding: 32px 24px 24px;
+  min-height: 373px;
+}
+#services .servicebox .servicelogo {
+  margin-bottom: 70px;
+  width: 52px;
+  height: 52px;
+  overflow: hidden;
+}
+#services .servicebox h1 {
+  letter-spacing: 0;
+  font-size: 32px;
+  line-height: 120%;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 12px;
+}
+#services .servicebox p {
+  letter-spacing: -0.1px;
+  font-size: 14px;
+  line-height: 150%;
+  color: #333;
+  font-weight: 400;
+}
+
+.p-new {
+  padding: 20px 121.2px;
+}
+@media (max-width: 1332px) {
+  .p-new {
+    padding: 20px;
+  }
 }
 
 footer .footerlogo {

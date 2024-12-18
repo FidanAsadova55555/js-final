@@ -286,6 +286,50 @@
     "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/671fb384629520375c45d734_agents-theme-13.jpg"
    }
 
+  ],
+  "servicedata":[
+    {
+      "id":1,
+      "logo":"https://cdn.prod.website-files.com/670010141e02b62e6f054e13/6702975b37e52c66c08a67cf_service-icon-1.svg",
+      "name":"Property buying assistance",
+      "description":"Helping clients find and purchase their dream home or investment property with personalized guidance throughout the process."
+
+    },
+    {
+      "id":2,
+      "logo":"https://cdn.prod.website-files.com/670010141e02b62e6f054e13/6702975a2759a79b03bab0b2_service-icon-2.svg",
+      "name":"Property selling services",
+      "description":"Expert marketing and sales strategies to help homeowners sell their properties quickly and for the best price."
+
+    },
+    {
+      "id":3,
+      "logo":"https://cdn.prod.website-files.com/670010141e02b62e6f054e13/6702975a1cd620f266132f6f_service-icon-3.svg",
+      "name":"Real estate consultation",
+      "description":"Professional advice on market trends, property values, and investment opportunities tailored to individual client needs."
+
+    },
+    {
+      "id":4,
+      "logo":"https://cdn.prod.website-files.com/670010141e02b62e6f054e13/6702975a7d583a0d54a393f6_service-icon-4.svg",
+      "name":"Property management",
+      "description":"Comprehensive management services to maintain and maximize the value of rental properties, including tenant management"
+
+    },
+    {
+      "id":5,
+      "logo":"https://cdn.prod.website-files.com/670010141e02b62e6f054e13/6702975bab354a1ef77bc500_service-icon-5.svg",
+      "name":"Rental and leasing services",
+      "description":"Helping clients find ideal rental homes or leasing opportunities with a focus on flexibility and long-term value."
+
+    },
+    {
+      "id":6,
+      "logo":"https://cdn.prod.website-files.com/670010141e02b62e6f054e13/6702975b20af6933119c0c87_service-icon-6.svg",
+      "name":"Home staging and preparation",
+      "description":"Preparing properties for sale with professional staging, repairs, and improvements to attract buyers and maximize value."
+
+    }
   ]
   
   

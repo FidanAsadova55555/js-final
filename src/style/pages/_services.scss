@@ -1,0 +1,46 @@
+#services{
+    .servicebox{
+        background-color: #f7f7f7;
+    border: 1px solid #e8e8e8;
+    border-radius: 20px;
+    padding: 32px 24px 24px;
+    min-height: 373px;
+    .servicelogo{
+        margin-bottom: 70px;
+        width: 52px;
+        height: 52px;
+        overflow: hidden;
+        img{
+            @extend %img;
+        }
+
+    }
+
+
+        h1{
+            letter-spacing: 0;
+    font-size: 32px;
+    line-height: 120%;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 12px;
+        }
+        p{
+            letter-spacing: -0.1px;
+    font-size: 14px;
+    line-height: 150%;
+    color: $textcolor;
+    font-weight: 400;
+
+        }
+    }
+}
+.p-new{
+    padding: 20px 121.2px ;
+    @media (max-width: 1332px) {
+        
+            padding: 20px;
+        
+        
+        }
+}
