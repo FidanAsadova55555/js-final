@@ -330,7 +330,29 @@
       "description":"Preparing properties for sale with professional staging, repairs, and improvements to attract buyers and maximize value."
 
     }
-  ]
+  ],
+  
+    "contactmy": [
+      {
+        "id": 1,
+        "icon": "<i class=\"ri-map-pin-line\"></i>",
+        "title": "Address",
+        "text": "8502 Preston Rd. Inglewood, Maine 98380"
+      },
+      {
+        "id": 2,
+        "icon": "<i class=\"ri-phone-line\"></i>",
+        "title": "Phone",
+        "text": "(704) 546-955-0127 (239) 342-555-0108"
+      },
+      {
+        "id": 3,
+        "icon": "<i class=\"ri-mail-open-line\"></i>",
+        "title": "Email",
+        "text": "contact@realvy.com realvy.us@support.com"
+      }
+    ]
+  
   
   
 }
