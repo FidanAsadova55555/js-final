@@ -17,6 +17,7 @@
 
 
         h1{
+            max-width: 323px;
             letter-spacing: 0;
     font-size: 32px;
     line-height: 120%;
@@ -24,7 +25,8 @@
     color: black;
     margin-bottom: 12px;
         }
-        p{
+        p{            max-width: 323px;
+
             letter-spacing: -0.1px;
     font-size: 14px;
     line-height: 150%;
@@ -33,13 +35,4 @@
 
         }
     }
-}
-.p-new{
-    padding: 20px 121.2px ;
-    @media (max-width: 1332px) {
-        
-            padding: 20px;
-        
-        
-        }
 }

@@ -42,10 +42,9 @@
         width: 23%;
       }
   
-      /* Add smooth transition for wrapper */
       .swiper-wrapper {
         display: flex;
-        transition: transform 0.2s linear; /* Smooth and continuous transition */
+        transition: transform 0.2s linear;
       }
       
 }

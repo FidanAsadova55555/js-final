@@ -47,7 +47,7 @@ const renderagentsData = async (data) => {
   if (data && agentsD) {
     data.forEach((agentsData, index) => {
       const agentsHtml = `
-        <div key="${index}" class="col-lg-4 col-md-6 col-sm-12 p-3">
+        <div key="${index}" class="col-lg-4 col-md-6 col-sm-12 ">
                      <a href="${agentsData?.href}">   
                      <div class="agentsimg">
                       <img src="${agentsData?.img}" alt=""></div> 
@@ -257,66 +257,69 @@ fetchData("/agentim", (data) => {
  let minutesAgo;
  const blogsui = document.getElementById("blogsui");
  if (!blogsui) {
-   console.error("Element with classname 'swiper-wrapper' not found");
+   console.error("Element with id 'blogsui' not found");
  }
- const renderbloqsuiData = async (data) => {
+ 
+ const renderbloqsuiData = async (data, limit = null) => {
    if (data && blogsui) {
-     data.forEach((blog) => {
-         
-     let exitTime = localStorage.getItem('exitTime'); 
-     const currentTime = new Date();
-     
-     if (!exitTime) {
-         exitTime = currentTime.toISOString(); 
+     const blogsToRender = limit ? data.slice(0, limit) : data;
+ 
+     blogsToRender.forEach((blog) => {
+       let exitTime = localStorage.getItem('exitTime');
+       const currentTime = new Date();
+ 
+       if (!exitTime) {
+         exitTime = currentTime.toISOString();
          localStorage.setItem('exitTime', exitTime);
-     } else {
+       } else {
          localStorage.setItem('exitTime', currentTime.toISOString());
-     }
-     const exitTimeParsed = new Date(exitTime);
-const differenceInMinutes = Math.round((currentTime - exitTimeParsed) / 1000 / 60); 
-
-minutesAgo = differenceInMinutes > 0 ? differenceInMinutes : 0;
+       }
+ 
+       const exitTimeParsed = new Date(exitTime);
+       const differenceInMinutes = Math.round((currentTime - exitTimeParsed) / 1000 / 60);
+       const minutesAgo = differenceInMinutes > 0 ? differenceInMinutes : 0;
+ 
        const blogsuiHtml = `
-         <div id="responsiveblog"  class="col-lg-4 col-md-6 col-sm-12">
-                         <div class="blogcontainer">
-                             <div class="blogimg">
-                                 <a href="${blog?.href}">
-                                     <img src="${blog?.blogimg}" alt="">  
-
-                                 </a>
-                             </div>
-                            <div class="values-box-title-wrap">
-                             <a  href="${blog?.href}">
-                                 <h2 class="values-box-title">${blog?.txt}</h2>
-
-                             </a>
-                          </div> 
-                          <div class="blogdata">
-                             <p class="date"><i class="ri-calendar-2-line"></i>${today}                               </p>
-                             <p class="date"><i class="ri-time-line"></i>${minutesAgo} min read</p>
-                          </div>
-                          <div class="btn">
-                             <a href="${blog?.href}">Read more</a>
-                          </div>
-                         </div>
-                     </div>`;
+         <div id="responsiveblog" class="col-lg-4 col-md-6 col-sm-12">
+           <div class="blogcontainer">
+             <div class="blogimg">
+               <a href="${blog?.href}">
+                 <img src="${blog?.blogimg}" alt="">
+               </a>
+             </div>
+             <div class="values-box-title-wrap">
+               <a href="${blog?.href}">
+                 <h2 class="values-box-title">${blog?.txt}</h2>
+               </a>
+             </div>
+             <div class="blogdata">
+               <p class="date"><i class="ri-calendar-2-line"></i>${today}</p>
+               <p class="date"><i class="ri-time-line"></i>${minutesAgo} min read</p>
+             </div>
+             <div class="btn">
+               <a href="${blog?.href}">Read more</a>
+             </div>
+           </div>
+         </div>`;
        blogsui.innerHTML += blogsuiHtml;
      });
- 
-    
    } else {
      console.error("No data or target element to render");
    }
  };
+ 
  document.addEventListener('DOMContentLoaded', () => {
-     const minutesAgoElement = document.querySelector('.minutes-ago');
-     if (minutesAgoElement) {
-         minutesAgoElement.innerHTML = `<i class="ri-time-line"></i>${minutesAgo} min read`;
+   const currentPath = window.location.pathname;
+ 
+   fetchData("/blog", (data) => {
+     if (currentPath.includes("blogs.html")) {
+       renderbloqsuiData(data);
+     } else {
+       renderbloqsuiData(data, 3);
      }
+   });
  });
- fetchData("/blog", (data) => {
-   renderbloqsuiData(data);
- });
+ 
 ////////////////////////////////////////////////////////////////////////
   
   const accardionD = document.getElementById("accordions");

@@ -1,358 +1,641 @@
 {
-    "accordionData": [
-    {
-      "id": "1",
-      "title": "How long does it take to buy a home?",
-      "description": "The home-buying process typically takes 30 to 60 days from the time an offer is accepted, depending on factors like financing, inspections, and the closing process."
-    },
-    {
-      "id": "2",
-      "title": "How much should I save for a down payment?",
-      "description": "The home-buying process typically takes 30 to 60 days from the time an offer is accepted, depending on factors like financing, inspections, and the closing process."
-    },
-    {
-      "id": "3",
-      "title": "Do I need a real estate agent to sell my home?",
-      "description": "The home-buying process typically takes 30 to 60 days from the time an offer is accepted, depending on factors like financing, inspections, and the closing process."
-    },
-    {
-        "id": "4",
-        "title": "What should I look for during a home inspection?",
-        "description": "The home-buying process typically takes 30 to 60 days from the time an offer is accepted, depending on factors like financing, inspections, and the closing process."
-      },
-      {
-        "id": "5",
-        "title": "What is the first step in buying a home?",
-        "description": "The home-buying process typically takes 30 to 60 days from the time an offer is accepted, depending on factors like financing, inspections, and the closing process."
-      }
-      
-  ],
-  "swiperData": [
-    {
-      "id": "1",
-      "header": "Their attention to detail market expertise made all the difference."
-,
-      "text": "Their dedication and commitment to finding the right property were evident throughout. I highly recommend their services to anyone looking to buy or sell. I’m thrilled with my new investment this new property!",
-      "name":"David Martinez",
-      "location":"San Jose, South Dakota",
-      "img":"https://cdn.prod.website-files.com/670010141e02b62e6f054e13/670224e217d36d0f9d6431a3_testimonials-thumb-1-p-500.jpg"
-    },
-    {
-      "id":"2",
-      "header":"An exceptional experience from start to finish!",
-      "text":"From the first meeting to the closing, they were professional, knowledgeable, and always available to answer our questions. I couldn’t be happier with my new home! They listened to what I was looking for and showed me properties needs perfectly.",
-      "name":"James Thompson",
-      "location":"Dallas, Texas",
-      "img":"https://cdn.prod.website-files.com/670010141e02b62e6f054e13/670224e2dba4f045e5fbe423_testimonials-thumb-2-p-500.jpg"
+	"accordionData": [
+		{
+			"id": "1",
+			"title": "How long does it take to buy a home?",
+			"description": "The home-buying process typically takes 30 to 60 days from the time an offer is accepted, depending on factors like financing, inspections, and the closing process."
+		},
+		{
+			"id": "2",
+			"title": "How much should I save for a down payment?",
+			"description": "The home-buying process typically takes 30 to 60 days from the time an offer is accepted, depending on factors like financing, inspections, and the closing process."
+		},
+		{
+			"id": "3",
+			"title": "Do I need a real estate agent to sell my home?",
+			"description": "The home-buying process typically takes 30 to 60 days from the time an offer is accepted, depending on factors like financing, inspections, and the closing process."
+		},
+		{
+			"id": "4",
+			"title": "What should I look for during a home inspection?",
+			"description": "The home-buying process typically takes 30 to 60 days from the time an offer is accepted, depending on factors like financing, inspections, and the closing process."
+		},
+		{
+			"id": "5",
+			"title": "What is the first step in buying a home?",
+			"description": "The home-buying process typically takes 30 to 60 days from the time an offer is accepted, depending on factors like financing, inspections, and the closing process."
+		}
+	],
+	"swiperData": [
+		{
+			"id": "1",
+			"header": "Their attention to detail market expertise made all the difference.",
+			"text": "Their dedication and commitment to finding the right property were evident throughout. I highly recommend their services to anyone looking to buy or sell. I’m thrilled with my new investment this new property!",
+			"name": "David Martinez",
+			"location": "San Jose, South Dakota",
+			"img": "https://cdn.prod.website-files.com/670010141e02b62e6f054e13/670224e217d36d0f9d6431a3_testimonials-thumb-1-p-500.jpg"
+		},
+		{
+			"id": "2",
+			"header": "An exceptional experience from start to finish!",
+			"text": "From the first meeting to the closing, they were professional, knowledgeable, and always available to answer our questions. I couldn’t be happier with my new home! They listened to what I was looking for and showed me properties needs perfectly.",
+			"name": "James Thompson",
+			"location": "Dallas, Texas",
+			"img": "https://cdn.prod.website-files.com/670010141e02b62e6f054e13/670224e2dba4f045e5fbe423_testimonials-thumb-2-p-500.jpg"
+		},
+		{
+			"id": "3",
+			"header": "Exceptional service and outstanding results.",
+			"text": "The team’s marketing strategy and negotiation skills exceeded my expectations. I couldn’t be more pleased with the outcome. I never felt rushed or pressured, and they were always willing to go the extra mile to find properties that matched my vision.",
+			"name": "Olivia Carter",
+			"location": "Boston, Florida",
+			"img": "https://cdn.prod.website-files.com/670010141e02b62e6f054e13/670224e2671d7cf571ff35b2_testimonials-thumb-3.jpg"
+		}
+	],
+	"blogdetail": [
+		{
+			"id": 1,
+			"title": "Exploring the most exclusive properties around the world",
+			"description": "This design have it in named overall there, of as parts ourselves, coast little mathematicians lay as know that in you help of get handout on he to tones would be we've the yet outfits century a the temple.",
+			"writername": "Albert Flores",
+			"writerimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091bba6ca94b3d59b08a0d_blog-author.png",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092ffe55ec36dbf97d43d3_blog-banner-12-p-1600.jpg"
+		},
+		{
+			"id": 2,
+			"title": "Making your homeownership dreams a reality",
+			"description": "This design have it in named overall there, of as parts ourselves, coast little mathematicians lay as know that in you help of get handout on he to tones would be we've the yet outfits century a the temple.",
+			"writername": "Albert Flores",
+			"writerimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091bba6ca94b3d59b08a0d_blog-author.png",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092f918c442ac3f8f900a3_blog-banner-11-p-1600.jpg"
+		},
+		{
+			"id": 3,
+			"title": "Here’s how to decorate your new home from scratch",
+			"description": "This design have it in named overall there, of as parts ourselves, coast little mathematicians lay as know that in you help of get handout on he to tones would be we've the yet outfits century a the temple.",
+			"writername": "Albert Flores",
+			"writerimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091bba6ca94b3d59b08a0d_blog-author.png",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092f6be0919123c08607b1_blog-banner-10-p-1080.jpg"
+		},
+		{
+			"id": 4,
+			"title": "The smart guide to real estate investments",
+			"description": "This design have it in named overall there, of as parts ourselves, coast little mathematicians lay as know that in you help of get handout on he to tones would be we've the yet outfits century a the temple.",
+			"writername": "Albert Flores",
+			"writerimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091bba6ca94b3d59b08a0d_blog-author.png",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092f475c24484485e58623_blog-banner-9-p-2000.jpg"
+		},
+		{
+			"id": 5,
+			"title": "Organizing your home to impress buyers",
+			"description": "This design have it in named overall there, of as parts ourselves, coast little mathematicians lay as know that in you help of get handout on he to tones would be we've the yet outfits century a the temple.",
+			"writername": "Albert Flores",
+			"writerimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091bba6ca94b3d59b08a0d_blog-author.png",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092f229a65e82bc1734bf1_blog-banner-8-p-800.jpg"
+		},
+		{
+			"id": 6,
+			"title": "Determining the best option for your financial goals",
+			"description": "This design have it in named overall there, of as parts ourselves, coast little mathematicians lay as know that in you help of get handout on he to tones would be we've the yet outfits century a the temple.",
+			"writername": "Albert Flores",
+			"writerimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091bba6ca94b3d59b08a0d_blog-author.png",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092f051300ff15e3a64146_blog-banner-7-p-2000.jpg"
+		},
+		{
+			"id": 7,
+			"title": "How to make your property irresistible to buyers",
+			"description": "This design have it in named overall there, of as parts ourselves, coast little mathematicians lay as know that in you help of get handout on he to tones would be we've the yet outfits century a the temple.",
+			"writername": "Albert Flores",
+			"writerimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091bba6ca94b3d59b08a0d_blog-author.png",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092ee6623fe36ab3297824_blog-banner-6-p-2000.jpg"
+		},
+		{
+			"id": 8,
+			"title": "The ultimate guide to selling your home quickly",
+			"description": "This design have it in named overall there, of as parts ourselves, coast little mathematicians lay as know that in you help of get handout on he to tones would be we've the yet outfits century a the temple.",
+			"writername": "Albert Flores",
+			"writerimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091bba6ca94b3d59b08a0d_blog-author.png",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092ec7c3e1b3b47ccd2150_blog-banner-5-p-1600.jpg"
+		},
+		{
+			"id": 9,
+			"title": "10 essential tips for first-time homebuyers",
+			"description": "This design have it in named overall there, of as parts ourselves, coast little mathematicians lay as know that in you help of get handout on he to tones would be we've the yet outfits century a the temple.",
+			"writername": "Albert Flores",
+			"writerimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091bba6ca94b3d59b08a0d_blog-author.png",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092ea97d829b223e80bdd8_blog-banner-4.jpg"
+		},
+		{
+			"id": 10,
+			"title": "The smart guide to real estate investments",
+			"description": "This design have it in named overall there, of as parts ourselves, coast little mathematicians lay as know that in you help of get handout on he to tones would be we've the yet outfits century a the temple.",
+			"writername": "Albert Flores",
+			"writerimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091bba6ca94b3d59b08a0d_blog-author.png",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092e8224e5b9579b7fa78c_blog-banner-3-p-2000.jpg"
+		},
+		{
+			"id": 11,
+			"title": "Making your homeownership dreams a reality",
+			"description": "This design have it in named overall there, of as parts ourselves, coast little mathematicians lay as know that in you help of get handout on he to tones would be we've the yet outfits century a the temple.",
+			"writername": "Albert Flores",
+			"writerimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091bba6ca94b3d59b08a0d_blog-author.png",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092e5b668c86b5b18d7492_blog-banner-2-p-1600.jpg"
+		},
+		{
+			"id": 12,
+			"title": "Here’s how to decorate your new home from scratch",
+			"description": "This design have it in named overall there, of as parts ourselves, coast little mathematicians lay as know that in you help of get handout on he to tones would be we've the yet outfits century a the temple.",
+			"writername": "Albert Flores",
+			"writerimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091bba6ca94b3d59b08a0d_blog-author.png",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091c3953557845563a8659_blog-banner-1-p-1600.jpg"
+		}
+	],
+	"blog": [
+		{
+			"id": 1,
+			"blogimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092ffb13d7a3c1a189b27e_blog-thumb-12-p-800.jpg",
+			"txt": "Here’s how to decorate your new home from scratch",
+			"href": "blogDetail.html?id=1"
+		},
+		{
+			"id": 2,
+			"blogimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092f8dcaadf9e4eb92d372_blog-thumb-11-p-1080.jpg",
+			"txt": "Here’s how to decorate your new home from scratch",
+			"href": "blogDetail.html?id=2"
+		},
+		{
+			"id": 3,
+			"blogimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092f6513d7a3c1a18934c6_blog-thumb-10-p-500.jpg",
+			"txt": "Here’s how to decorate your new home from scratch",
+			"href": "blogDetail.html?id=3"
+		},
+		{
+			"id": 4,
+			"blogimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092f43f2d735d9d2db9569_blog-thumb-9-p-500.jpg",
+			"txt": "Here’s how to decorate your new home from scratch",
+			"href": "blogDetail.html?id=4"
+		},
+		{
+			"id": 5,
+			"blogimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092f1d2bf9d5ed6bba1101_blog-thumb-8.jpg",
+			"txt": "Here’s how to decorate your new home from scratch",
+			"href": "blogDetail.html?id=5"
+		},
+		{
+			"id": 6,
+			"blogimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092f01c46395a457e8e089_blog-thumb-7-p-800.jpg",
+			"txt": "Here’s how to decorate your new home from scratch",
+			"href": "blogDetail.html?id=6"
+		},
+		{
+			"id": 7,
+			"blogimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092ee3e10d20ecb69d6588_blog-thumb-6-p-500.jpg",
+			"txt": "Here’s how to decorate your new home from scratch",
+			"href": "blogDetail.html?id=7"
+		},
+		{
+			"id": 8,
+			"blogimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092ec4a473904894ce3eac_blog-thumb-5-p-500.jpg",
+			"txt": "Here’s how to decorate your new home from scratch",
+			"href": "blogDetail.html?id=8"
+		},
+		{
+			"id": 9,
+			"blogimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092ea66492b2c8a7e9fdc6_blog-thumb-4-p-500.jpg",
+			"txt": "Here’s how to decorate your new home from scratch",
+			"href": "blogDetail.html?id=9"
+		},
+		{
+			"id": 10,
+			"blogimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092e7e623fe36ab328e63a_blog-thumb-3-p-500.jpg",
+			"txt": "Here’s how to decorate your new home from scratch",
+			"href": "blogDetail.html?id=10"
+		},
+		{
+			"id": 11,
+			"blogimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092e569b0c2b80f343a526_blog-thumb-2.jpg",
+			"txt": "Here’s how to decorate your new home from scratch",
+			"href": "blogDetail.html?id=11"
+		},
+		{
+			"id": 12,
+			"blogimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091c354e32bf02c2ff4876_blog-thumb-1-p-500.jpg",
+			"txt": "Here’s how to decorate your new home from scratch",
+			"href": "blogDetail.html?id=12"
+		}
+	],
+	"scrollimages": [
+		{
+			"img": "https://cdn.prod.website-files.com/670010141e02b62e6f054e13/67018c77e82d41323b7c69ca_process-thumb-1-p-500.jpg",
+			"id": 1
+		},
+		{
+			"img": "https://cdn.prod.website-files.com/670010141e02b62e6f054e13/67018c7528a69477c950bea9_process-thumb-2-p-800.jpg",
+			"id": 2
+		},
+		{
+			"img": "https://cdn.prod.website-files.com/670010141e02b62e6f054e13/67018c75a96327a0b77b36e9_process-thumb-3.jpg",
+			"id": 3
+		}
+	],
+	"agentim": [
+		{
+			"id": 1,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709188127b55df89d439264_agents-thumb-1-p-800.jpg",
+			"href": "agentdetail.html?id=1",
+			"name": "Bryce Jones",
+			"position": "Client relations manager"
+		},
+		{
+			"id": 2,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709268e668c86b5b1862dc2_agents-thumb-2-p-800.jpg",
+			"href": "agentdetail.html?id=2",
+			"name": "Dentista Aguilda",
+			"position": "Luxury property expert"
+		},
+		{
+			"id": 3,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709271fadee83ccbf78ce61_agents-thumb-3-p-500.jpg",
+			"href": "agentdetail.html?id=3",
+			"name": "Agustín trabajo",
+			"position": "Lead property advisor"
+		},
+		{
+			"id": 4,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092736c257ad43bc59d04c_agents-thumb-4-p-500.jpg",
+			"href": "agentdetail.html?id=4",
+			"name": "Cristela Estilista",
+			"position": "Senior real estate consultant"
+		},
+		{
+			"id": 5,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092753708e26b2cc914f71_agents-thumb-5-p-500.jpg",
+			"href": "agentdetail.html?id=5",
+			"name": "Denya Contadora",
+			"position": "Real estate investment specialist"
+		},
+		{
+			"id": 6,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092767c483e212c03ed4b0_agents-thumb-6-p-800.jpg",
+			"href": "agentdetail.html?id=6",
+			"name": "Alday Banamex",
+			"position": "Residential sales consultant"
+		},
+		{
+			"id": 7,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709278cb070d58e6f069d65_agents-thumb-7-p-800.jpg",
+			"href": "agentdetail.html?id=7",
+			"name": "Encarna Homie",
+			"position": "Commercial property agent"
+		},
+		{
+			"id": 8,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927a1ef7c1e971bec7ace_agents-thumb-8-p-800.jpg",
+			"href": "agentdetail.html?id=8",
+			"name": "Valerie Ahorro",
+			"position": "Listing agent"
+		},
+		{
+			"id": 9,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927b8f2d735d9d2d3c23c_agents-thumb-9-p-800.jpg",
+			"href": "agentdetail.html?id=9",
+			"name": "Maestra Yazmin",
+			"position": "Investment property consultant"
+		},
+		{
+			"id": 10,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927cf46eca33cec25b813_agents-thumb-10-p-800.jpg",
+			"href": "agentdetail.html?id=10",
+			"name": "Vidal Plantas",
+			"position": "Real estate finance consultant"
+		},
+		{
+			"id": 11,
+			"name": "Tia Jaquelín",
+			"href": "agentdetail.html?id=11",
+			"position": "Real estate valuation expert",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927e6805762bc7ef24a2c_agents-thumb-11.jpg"
+		},
+		{
+			"id": 12,
+			"name": "Vidal Plantas",
+			"href": "agentdetail.html?id=12",
+			"position": "Real estate finance consultant",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/671fb384629520375c45d734_agents-theme-13.jpg"
+		}
+	],
+	"agentdetail": [
+		{
+			"id": 1,
+			"name": "Bryce Jones",
+			"position": "Client relations manager",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709188127b55df89d439264_agents-thumb-1-p-800.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Dentista Aguilda",
+			"position": "Luxury property expert",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709268e668c86b5b1862dc2_agents-thumb-2-p-800.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Agustín trabajo",
+			"position": "Lead property advisor",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709271fadee83ccbf78ce61_agents-thumb-3-p-800.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Cristela Estilista",
+			"position": "Senior real estate consultant",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092736c257ad43bc59d04c_agents-thumb-4-p-800.jpg"
+		},
+		{
+			"id": 5,
+			"name": "Denya Contadora",
+			"position": "Real estate investment specialist",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092753708e26b2cc914f71_agents-thumb-5-p-800.jpg"
+		},
+		{
+			"id": 6,
+			"name": "Alday Banamex",
+			"position": "Residential sales consultant",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092767c483e212c03ed4b0_agents-thumb-6-p-800.jpg"
+		},
+		{
+			"id": 7,
+			"name": "Encarna Homie",
+			"position": "Commercial property agent",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709278cb070d58e6f069d65_agents-thumb-7-p-800.jpg"
+		},
+		{
+			"id": 8,
+			"name": "Uziel Renta",
+			"position": "Property management specialist",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927a1ef7c1e971bec7ace_agents-thumb-8-p-800.jpg"
+		},
+		{
+			"id": 9,
+			"name": "Valerie Ahorro",
+			"position": "Listing agent",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927b8f2d735d9d2d3c23c_agents-thumb-9-p-800.jpg"
+		},
+		{
+			"id": 10,
+			"name": "Maestra Yazmin",
+			"position": "Investment property consultant",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927cf46eca33cec25b813_agents-thumb-10-p-800.jpg"
+		},
+		{
+			"id": 11,
+			"name": "Tia Jaquelín",
+			"position": "Real estate valuation expert",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927e6805762bc7ef24a2c_agents-thumb-11.jpg"
+		},
+		{
+			"id": 12,
+			"name": "Vidal Plantas",
+			"position": "Real estate finance consultant",
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/671fb384629520375c45d734_agents-theme-13.jpg"
+		}
+	],
+	"servicedata": [
+		{
+			"id": 1,
+			"logo": "https://cdn.prod.website-files.com/670010141e02b62e6f054e13/6702975b37e52c66c08a67cf_service-icon-1.svg",
+			"name": "Property buying assistance",
+			"description": "Helping clients find and purchase their dream home or investment property with personalized guidance throughout the process."
+		},
+		{
+			"id": 2,
+			"logo": "https://cdn.prod.website-files.com/670010141e02b62e6f054e13/6702975a2759a79b03bab0b2_service-icon-2.svg",
+			"name": "Property selling services",
+			"description": "Expert marketing and sales strategies to help homeowners sell their properties quickly and for the best price."
+		},
+		{
+			"id": 3,
+			"logo": "https://cdn.prod.website-files.com/670010141e02b62e6f054e13/6702975a1cd620f266132f6f_service-icon-3.svg",
+			"name": "Real estate consultation",
+			"description": "Professional advice on market trends, property values, and investment opportunities tailored to individual client needs."
+		},
+		{
+			"id": 4,
+			"logo": "https://cdn.prod.website-files.com/670010141e02b62e6f054e13/6702975a7d583a0d54a393f6_service-icon-4.svg",
+			"name": "Property management",
+			"description": "Comprehensive management services to maintain and maximize the value of rental properties, including tenant management"
+		},
+		{
+			"id": 5,
+			"logo": "https://cdn.prod.website-files.com/670010141e02b62e6f054e13/6702975bab354a1ef77bc500_service-icon-5.svg",
+			"name": "Rental and leasing services",
+			"description": "Helping clients find ideal rental homes or leasing opportunities with a focus on flexibility and long-term value."
+		},
+		{
+			"id": 6,
+			"logo": "https://cdn.prod.website-files.com/670010141e02b62e6f054e13/6702975b20af6933119c0c87_service-icon-6.svg",
+			"name": "Home staging and preparation",
+			"description": "Preparing properties for sale with professional staging, repairs, and improvements to attract buyers and maximize value."
+		}
+	],
+	"contactmy": [
+		{
+			"id": 1,
+			"icon": "<i class=\"ri-map-pin-line\"></i>",
+			"title": "Address",
+			"text": "8502 Preston Rd. Inglewood, Maine 98380"
+		},
+		{
+			"id": 2,
+			"icon": "<i class=\"ri-phone-line\"></i>",
+			"title": "Phone",
+			"text": "(704) 546-955-0127 (239) 342-555-0108"
+		},
+		{
+			"id": 3,
+			"icon": "<i class=\"ri-mail-open-line\"></i>",
+			"title": "Email",
+			"text": "contact@realvy.com realvy.us@support.com"
+		}
+	],
+	"properties": [
+		{
+			"id": 1,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091f3f674dafa04e4277ef_properties-thumb-1.jpg",
+			"rentorsale": "Rent",
+			"price": "400",
+			"frequency": "/ month",
+			"propertytitle": "Sunset luxury villa",
+			"address": "12273 Dream Avenue, New York",
+			"sqft": "1490",
+			"bed": "3",
+			"shower": "2",
+			"car": "2",
+			"href": "propertydetail.html?id=1"
 
-    },
-    {
-      "id": "3",
-      "header":"Exceptional service and outstanding results.",
-      "text":"The team’s marketing strategy and negotiation skills exceeded my expectations. I couldn’t be more pleased with the outcome. I never felt rushed or pressured, and they were always willing to go the extra mile to find properties that matched my vision.",
-      "name":"Olivia Carter",
-      "location":"Boston, Florida",
-      "img":"https://cdn.prod.website-files.com/670010141e02b62e6f054e13/670224e2671d7cf571ff35b2_testimonials-thumb-3.jpg"
+		},
+		{
+			"id": 2,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709283c5fcf7ca778f668db_properties-thumb-2-p-800.jpg",
+			"rentorsale": "Sell",
+			"price": "50,000",
+			"frequency": "",
+			"propertytitle": "Parkview estates",
+			"address": "2972 Westheimer Rd. Santa Ana, Illinois",
+			"sqft": "2370",
+			"bed": "4",
+			"shower": "3",
+			"car": "2",
+			"href": "propertydetail.html?id=2"
 
-    }
-      
-  ],
-  "blogdetail": [
-    {
-      "id": 1,
-      "title": "Exploring the most exclusive properties around the world",
-      "description": "This design have it in named overall there, of as parts ourselves, coast little mathematicians lay as know that in you help of get handout on he to tones would be we've the yet outfits century a the temple.",
-      "writername":"Albert Flores",
-      "writerimg":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091bba6ca94b3d59b08a0d_blog-author.png",
-      "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092ffe55ec36dbf97d43d3_blog-banner-12-p-1600.jpg"
+		},
+		{
+			"id": 3,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092921093f2a8744d6aa23_properties-thumb-3.jpg",
+			"rentorsale": "Rent",
+			"price": "200",
+			"frequency": "/ month",
+			"propertytitle": "Cedar grove residences",
+			"address": "8502 Preston Rd. Inglewood, Maine",
+			"sqft": "1300",
+			"bed": "3",
+			"shower": "3",
+			"car": "1",
+			"href": "propertydetail.html?id=3"
 
-    },
-    {
-      "id": 2,
-      "title": "Making your homeownership dreams a reality",
-      "description": "This design have it in named overall there, of as parts ourselves, coast little mathematicians lay as know that in you help of get handout on he to tones would be we've the yet outfits century a the temple.",
-      "writername":"Albert Flores",
-      "writerimg":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091bba6ca94b3d59b08a0d_blog-author.png",
-"img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092f918c442ac3f8f900a3_blog-banner-11-p-1600.jpg"
+		},
+		{
+			"id": 4,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709299d5bb93f90a2d4a161_properties-thumb-4-p-500.jpg",
+			"rentorsale": "Sell",
+			"price": "32,000",
+			"frequency": "",
+			"propertytitle": "Lakeside manor",
+			"address": "2464 Royal Ln. Mesa, New Jersey",
+			"sqft": "700",
+			"bed": "2",
+			"shower": "1",
+			"car": "1",
+			"href": "propertydetail.html?id=4"
 
-    },
-    {
-      "id": 3,
-      "title": "Here’s how to decorate your new home from scratch",
-      "description": "This design have it in named overall there, of as parts ourselves, coast little mathematicians lay as know that in you help of get handout on he to tones would be we've the yet outfits century a the temple.",
-      "writername":"Albert Flores",
-      "writerimg":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67091bba6ca94b3d59b08a0d_blog-author.png",
-"img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092f6be0919123c08607b1_blog-banner-10-p-1080.jpg"
+		},
+		{
+			"id": 5,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670929e5c257ad43bc5c68d7_properties-thumb-5-p-800.jpg",
+			"rentorsale": "Rent",
+			"price": "520",
+			"frequency": "/ month",
+			"propertytitle": "Oceanfront oasis",
+			"address": "6391 Elgin St. Celina, Delaware",
+			"sqft": "1500",
+			"bed": "3",
+			"shower": "3",
+			"car": "2",
+			"href": "propertydetail.html?id=5"
 
-    }
-  ],
-  "blog": [
-    {
-      "id": 1,
-      "blogimg": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092ffb13d7a3c1a189b27e_blog-thumb-12-p-800.jpg",
-      "txt": "Here’s how to decorate your new home from scratch",
-      "href":"blogDetail.html?id=1"
-    },
-    {
-      "id": 2,
-      "blogimg":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092f8dcaadf9e4eb92d372_blog-thumb-11-p-1080.jpg",
-      "txt": "Here’s how to decorate your new home from scratch",
-      "href":"blogDetail.html?id=2"
+		},
+		{
+			"id": 6,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092a3483ab9e9a310b114f_properties-thumb-6.jpg",
+			"rentorsale": "Rent",
+			"price": "360",
+			"frequency": "/ month",
+			"propertytitle": "Skyline tower",
+			"address": "2715 Ash Dr. San Jose, South Dakota",
+			"sqft": "1250",
+			"bed": "3",
+			"shower": "2",
+			"car": "1",
+			"href": "propertydetail.html?id=6"
 
+		},
+		{
+			"id": 7,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092ac7e4068e3eaa9c9db4_properties-thumb-7-p-800.jpg",
+			"rentorsale": "Sale",
+			"price": "360",
+			"frequency": "/ month",
+			"propertytitle": "Harborview villas",
+			"address": "3722 Seaside Blvd, San Diego, California",
+			"sqft": "1345",
+			"bed": "4",
+			"shower": "2",
+			"car": "1",
+			"href": "propertydetail.html?id=7"
 
-    },
-    {
-      "id": 3,
-      "blogimg":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092f6513d7a3c1a18934c6_blog-thumb-10-p-500.jpg",
-      "txt": "Here’s how to decorate your new home from scratch",
-      "href":"blogDetail.html?id=3"
+		},
+		{
+			"id": 8,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092b1a50a19ffaa27b7a32_properties-thumb-8-p-800.jpg",
+			"rentorsale": "Rent",
+			"price": "360",
+			"frequency": "/ month",
+			"propertytitle": "Maplewood grove",
+			"address": "254 Maplewood Ave, Nashville, Tennessee",
+			"sqft": "1680",
+			"bed": "3",
+			"shower": "2",
+			"car": "1",
+			"href": "propertydetail.html?id=8"
 
-    }
-  ],
-  
-    "scrollimages": [
-      {
-        "img":      "https://cdn.prod.website-files.com/670010141e02b62e6f054e13/67018c77e82d41323b7c69ca_process-thumb-1-p-500.jpg",
-        "id":1
+		},
+		{
+			"id": 9,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092b6a805762bc7ef5ad45_properties-thumb-9-p-500.jpg",
+			"rentorsale": "Rent",
+			"price": "360",
+			"frequency": "/ month",
+			"propertytitle": "Evergreen heights",
+			"address": "875 Green Valley Ln, Portland, Oregon",
+			"sqft": "1020",
+			"bed": "2",
+			"shower": "1",
+			"car": "1",
+			"href": "propertydetail.html?id=9"
 
-      },
-      {
-        "img":      "https://cdn.prod.website-files.com/670010141e02b62e6f054e13/67018c7528a69477c950bea9_process-thumb-2-p-800.jpg",
-"id":2
-      },
-      {
-"img":        "https://cdn.prod.website-files.com/670010141e02b62e6f054e13/67018c75a96327a0b77b36e9_process-thumb-3.jpg",
-"id":3
+		},
+		{
+			"id": 10,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092ba35f8b9ebd3281872e_properties-thumb-10-p-800.jpg",
+			"rentorsale": "Rent",
+			"price": "360",
+			"frequency": "/ month",
+			"propertytitle": "Riverside enclave",
+			"address": "593 Riverfront Dr, New Orleans, Louisiana",
+			"sqft": "1860",
+			"bed": "4",
+			"shower": "3",
+			"car": "2",
+			"href": "propertydetail.html?id=10"
 
-      }
-    ],
-    "agentim":[
-      {
-          "id":1,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709188127b55df89d439264_agents-thumb-1-p-800.jpg",
-          "href":"agentdetail.html?id=1",
-          "name":"Bryce Jones",
-    "position":"Client relations manager"
+		},
+		{
+			"id": 11,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092be5ebeec92d071e57e0_properties-thumb-11-p-800.jpg",
+			"rentorsale": "Sale",
+			"price": "460",
+			"frequency": "/ month",
+			"propertytitle": "Bluewater estates",
+			"address": "1290 Ocean Blvd, Myrtle Beach, South Carolina",
+			"sqft": "1150",
+			"bed": "2",
+			"shower": "2",
+			"car": "1",
+			"href": "propertydetail.html?id=11"
 
-      },
-      {
-          "id":2,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709268e668c86b5b1862dc2_agents-thumb-2-p-800.jpg",
-          "href":"agentdetail.html?id=2",
-          "name":"Dentista Aguilda",
-    "position":"Luxury property expert"
+		},
+		{
+			"id": 12,
+			"img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092c3c5ab20b4c6a5f910a_properties-thumb-12-p-800.jpg",
+			"rentorsale": "Rent",
+			"price": "560",
+			"frequency": "/ month",
+			"propertytitle": "Woodland retreat",
+			"address": "645 Skyline Rd, Las Vegas, Nevada",
+			"sqft": "1580",
+			"bed": "4",
+			"shower": "2",
+			"car": "1",
+			"href": "propertydetail.html?id=12"
 
-      },
-      {
-          "id":3,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709271fadee83ccbf78ce61_agents-thumb-3-p-500.jpg",
-          "href":"agentdetail.html?id=3",
-          "name":"Agustín trabajo",
-    "position":"Lead property advisor"
-
-      },
-      {
-          "id":4,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092736c257ad43bc59d04c_agents-thumb-4-p-500.jpg",
-          "href":"agentdetail.html?id=4",
-          "name":"Cristela Estilista",
-          "position":"Senior real estate consultant"
-
-      },
-      {
-          "id":5,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092753708e26b2cc914f71_agents-thumb-5-p-500.jpg",
-          "href":"agentdetail.html?id=5",
-          "name":"Denya Contadora",
-    "position":"Real estate investment specialist"
-
-      },
-      {
-          "id":6,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092767c483e212c03ed4b0_agents-thumb-6-p-800.jpg",
-          "href":"agentdetail.html?id=6",
-          "name":"Alday Banamex",
-          "position":"Residential sales consultant"
-
-      },
-      {
-          "id":7,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709278cb070d58e6f069d65_agents-thumb-7-p-800.jpg",
-          "href":"agentdetail.html?id=7",
-          "name":"Encarna Homie",
-    "position":"Commercial property agent"
-
-      },
-      {
-          "id":8,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927a1ef7c1e971bec7ace_agents-thumb-8-p-800.jpg",
-          "href":"agentdetail.html?id=8",
-           "name":"Valerie Ahorro",
-    "position":"Listing agent"
-
-      },
-      {
-          "id":9,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927b8f2d735d9d2d3c23c_agents-thumb-9-p-800.jpg",
-          "href":"agentdetail.html?id=9",
-          "name":"Maestra Yazmin",
-    "position":"Investment property consultant"
-
-      },
-      {
-          "id":10,
-          "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927cf46eca33cec25b813_agents-thumb-10-p-800.jpg",
-          "href":"agentdetail.html?id=10",
-          "name":"Vidal Plantas",
-    "position":"Real estate finance consultant"
-
-      },
-      {"id":11,
-    "name":"Tia Jaquelín",
-    "href":"agentdetail.html?id=11",
-    "position":"Real estate valuation expert",
-    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927e6805762bc7ef24a2c_agents-thumb-11.jpg"
-   },
-   {"id":12,
-    "name":"Vidal Plantas",
-    "href":"agentdetail.html?id=12",
-    "position":"Real estate finance consultant",
-    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/671fb384629520375c45d734_agents-theme-13.jpg"
-   }
-
-  ],
-  "agentdetail":[
-
-
-    { "id":1,
-      "name":"Bryce Jones",
-    "position":"Client relations manager",
-    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709188127b55df89d439264_agents-thumb-1-p-800.jpg"
-    
-   },
-   {"id":2,
-    "name":"Dentista Aguilda",
-    "position":"Luxury property expert",
-    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709268e668c86b5b1862dc2_agents-thumb-2-p-800.jpg"
-   },
-   {"id":3,
-    "name":"Agustín trabajo",
-    "position":"Lead property advisor",
-    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709271fadee83ccbf78ce61_agents-thumb-3-p-800.jpg"
-   },
-   {"id":4,
-    "name":"Cristela Estilista",
-    "position":"Senior real estate consultant",
-    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092736c257ad43bc59d04c_agents-thumb-4-p-800.jpg"
-   },
-   {"id":5,
-    "name":"Denya Contadora",
-    "position":"Real estate investment specialist",
-    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092753708e26b2cc914f71_agents-thumb-5-p-800.jpg"
-   },
-   {"id":6,
-    "name":"Alday Banamex",
-    "position":"Residential sales consultant",
-    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092767c483e212c03ed4b0_agents-thumb-6-p-800.jpg"
-   },
-   {"id":7,
-    "name":"Encarna Homie",
-    "position":"Commercial property agent",
-    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709278cb070d58e6f069d65_agents-thumb-7-p-800.jpg"
-   },
-   {"id":8,
-    "name":"Uziel Renta",
-    "position":"Property management specialist",
-    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927a1ef7c1e971bec7ace_agents-thumb-8-p-800.jpg"
-   },
-   {"id":9,
-    "name":"Valerie Ahorro",
-    "position":"Listing agent",
-    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927b8f2d735d9d2d3c23c_agents-thumb-9-p-800.jpg"
-   },
-   {"id":10,
-    "name":"Maestra Yazmin",
-    "position":"Investment property consultant",
-    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927cf46eca33cec25b813_agents-thumb-10-p-800.jpg"
-   },
-   {"id":11,
-    "name":"Tia Jaquelín",
-    "position":"Real estate valuation expert",
-    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/670927e6805762bc7ef24a2c_agents-thumb-11.jpg"
-   },
-   {"id":12,
-    "name":"Vidal Plantas",
-    "position":"Real estate finance consultant",
-    "img":"https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/671fb384629520375c45d734_agents-theme-13.jpg"
-   }
-
-  ],
-  "servicedata":[
-    {
-      "id":1,
-      "logo":"https://cdn.prod.website-files.com/670010141e02b62e6f054e13/6702975b37e52c66c08a67cf_service-icon-1.svg",
-      "name":"Property buying assistance",
-      "description":"Helping clients find and purchase their dream home or investment property with personalized guidance throughout the process."
-
-    },
-    {
-      "id":2,
-      "logo":"https://cdn.prod.website-files.com/670010141e02b62e6f054e13/6702975a2759a79b03bab0b2_service-icon-2.svg",
-      "name":"Property selling services",
-      "description":"Expert marketing and sales strategies to help homeowners sell their properties quickly and for the best price."
-
-    },
-    {
-      "id":3,
-      "logo":"https://cdn.prod.website-files.com/670010141e02b62e6f054e13/6702975a1cd620f266132f6f_service-icon-3.svg",
-      "name":"Real estate consultation",
-      "description":"Professional advice on market trends, property values, and investment opportunities tailored to individual client needs."
-
-    },
-    {
-      "id":4,
-      "logo":"https://cdn.prod.website-files.com/670010141e02b62e6f054e13/6702975a7d583a0d54a393f6_service-icon-4.svg",
-      "name":"Property management",
-      "description":"Comprehensive management services to maintain and maximize the value of rental properties, including tenant management"
-
-    },
-    {
-      "id":5,
-      "logo":"https://cdn.prod.website-files.com/670010141e02b62e6f054e13/6702975bab354a1ef77bc500_service-icon-5.svg",
-      "name":"Rental and leasing services",
-      "description":"Helping clients find ideal rental homes or leasing opportunities with a focus on flexibility and long-term value."
-
-    },
-    {
-      "id":6,
-      "logo":"https://cdn.prod.website-files.com/670010141e02b62e6f054e13/6702975b20af6933119c0c87_service-icon-6.svg",
-      "name":"Home staging and preparation",
-      "description":"Preparing properties for sale with professional staging, repairs, and improvements to attract buyers and maximize value."
-
-    }
-  ],
-  
-    "contactmy": [
-      {
-        "id": 1,
-        "icon": "<i class=\"ri-map-pin-line\"></i>",
-        "title": "Address",
-        "text": "8502 Preston Rd. Inglewood, Maine 98380"
-      },
-      {
-        "id": 2,
-        "icon": "<i class=\"ri-phone-line\"></i>",
-        "title": "Phone",
-        "text": "(704) 546-955-0127 (239) 342-555-0108"
-      },
-      {
-        "id": 3,
-        "icon": "<i class=\"ri-mail-open-line\"></i>",
-        "title": "Email",
-        "text": "contact@realvy.com realvy.us@support.com"
-      }
-    ]
-  
-  
-  
+		}
+	]
 }

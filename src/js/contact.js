@@ -115,7 +115,7 @@ const accardionD = document.getElementById("accordions");
     if (data && contactD) {
       data.forEach((data) => {
         const contactHtml = `
-        <div style="margin-bottom:40px;" class="col-lg-4 col-md-6 col-sm-12">
+        <div  class="col-lg-4 col-md-6 col-sm-12">
                         <div class="contact-info">
                             <div class="contact-icon">
 ${data?.icon}                            </div>

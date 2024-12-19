@@ -28,6 +28,11 @@
             line-height: 112%;
             color: #000;
 
+            @media screen and (max-width: 767px) {
+            
+                    font-size: 18px;
+                
+            }
         }
     }
 
