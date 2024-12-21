@@ -570,7 +570,6 @@ console.log(swiperss);
 // .catch(error => console.error('Error fetching blog data:', error));
    //PROPERTIES//pagination...............
 const productsContainer = document.querySelector('#twelve');
-
 async function fetchProperties() {
     const response = await fetch('http://localhost:3001/properties');
     return await response.json();
@@ -583,23 +582,23 @@ async function renderProductsContainer(limit = null) {
 
     productsContainer.innerHTML = '';
 
-    propertiesToDisplay.forEach((element) => {
+    propertiesToDisplay.map((element) => {
         const propertyHTML = `
-      <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-6 col-sm-12 propertyitem">
                 <div class="property-box">
                     <div class="propertyimg">
-                    <a href="${element?.href}">                        <img src="${element?.img}" alt="">
+                    <a class="justdata" href="${element?.href}">                        <img src="${element?.img}" alt="">
 </a>
                       <div class="absolutes">
-                        <div class="abslt rentorsell">${element?.rentorsale}</div>
+                        <div class="abslt rentorsell"><a class="justdata">${element?.rentorsale}</a></div>
                         <div class="abslt price"><span id="price">$${element?.price}</span><span>${element?.frequency}</span></div>
                       </div>
                     </div>
                    <div class="propertyinfo">
-                   <a href="${element?.href}"> <div class="protitle">
-                    ${element?.propertytitle}
-                    </div></a>
-                    <h4 class="proadress"><i class="ri-map-pin-line"></i>12273 Dream Avenue, New York</h4>
+                   <a  href="${element?.href}"> <div class="protitle">
+<a class="justdata">                    ${element?.propertytitle}
+</a>                    </div></a>
+                    <h4 class="proadress"><i class="ri-map-pin-line"></i><a class="justdata">${element?.address}</a></h4>
                     <div class="properties-info-wrap">
                         <div class="properties-info">
                             <div class="properties-info-icon w-embed">
@@ -639,7 +638,25 @@ async function renderProductsContainer(limit = null) {
             productsContainer.innerHTML += propertyHTML;
           });
       }
-      
+      const search = document.getElementById('search');
+search.addEventListener('keyup',searchFunc);
+function searchFunc() {
+  const rows = document.querySelectorAll('.propertyitem');
+  const searchValue = search.value.toLowerCase();
+
+  rows.forEach((row) => {
+      const allData = row.querySelectorAll('.justdata');
+      let matchFound = false;
+
+      allData.forEach((data) => {
+          if (data.textContent.toLowerCase().includes(searchValue)) {
+              matchFound = true;
+          }
+      });
+
+      row.style.display = matchFound ? 'block' : 'none';
+  });
+}
       if (window.location.pathname.includes('home.html')) {
           renderProductsContainer(6);
       }

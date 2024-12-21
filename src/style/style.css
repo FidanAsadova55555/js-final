@@ -1682,6 +1682,108 @@ header #submenu #under li a {
   line-height: 150%;
 }
 
+.search-bar {
+  z-index: 10;
+  grid-column-gap: 140px;
+  grid-row-gap: 140px;
+  background-color: #f7f7f7;
+  border: 1px solid #e8e8e8;
+  border-radius: 24px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 815px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px 12px 12px 28px;
+  display: flex;
+  position: relative;
+}
+.search-bar .dropdowns {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  display: flex;
+}
+.search-bar .dropdowns .dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  position: relative;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #0c0407;
+  line-height: 24px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 17px;
+}
+.search-bar .dropdowns .dropdown span {
+  width: 1em;
+  height: 1em;
+  margin-left: 5px;
+}
+.search-bar .search-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #e8e8e8;
+  color: #333;
+  vertical-align: middle;
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 1.42857;
+  border-radius: 16px;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 0;
+  padding: 19.5px 20px;
+  padding-right: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-bar .search-field input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 14px;
+  color: #666;
+  padding: 5px 10px;
+}
+.search-bar .search-field input::-moz-placeholder {
+  color: #666;
+  font-weight: 400;
+}
+.search-bar .search-field input::placeholder {
+  color: #666;
+  font-weight: 400;
+}
+.search-bar .search-field .search-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  line-height: 1px;
+}
+.search-bar .search-field .search-btn i {
+  font-size: 16px;
+}
+.search-bar .search-field .search-btn:hover {
+  background-color: #333;
+}
+
 #exampleModal .modal-dialog {
   max-width: 735px;
 }
