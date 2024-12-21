@@ -641,21 +641,6 @@
       "car": "1",
       "href": "propertydetail.html?id=6",
       "propertyId": "6"
-    },
-    {
-      "id": "6",
-      "img": "https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/67092a3483ab9e9a310b114f_properties-thumb-6.jpg",
-      "rentorsale": "Rent",
-      "price": "360",
-      "frequency": "/ month",
-      "propertytitle": "Skyline tower",
-      "address": "2715 Ash Dr. San Jose, South Dakota",
-      "sqft": "1250",
-      "bed": "3",
-      "shower": "2",
-      "car": "1",
-      "href": "propertydetail.html?id=6",
-      "propertyId": "6"
     }
   ]
 }

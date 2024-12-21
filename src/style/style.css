@@ -100,6 +100,10 @@ a {
   color: inherit;
 }
 
+header button {
+  padding: 0 !important;
+}
+
 footer .fimage .home img, footer .footerlogo .flogoimg img, .notempty .cartitemimg img, #propertiesdetail .agentbox .agentphoto img, #propertiesdetail .prodetailimg img, .property-box .propertyimg img, #services .servicebox .servicelogo img, #agentdetail .agentbox .agentphoto img, #proces .procesright .procesimg img, #blogdetail .blogtextphoto img, #blogdetail .blogphoto img, #blogdetail .writer .hisphoto img, #myblogs .blogimg img, #slider .testimonials-thumb-wrap img, #why .whyimg img, #mission .missionimg img, #agentdetail .blogtextphoto img, #agentdetail .blogphoto img, #agentdetail .writer .hisphoto img, .align .introimage img, header .navbar .nav-left .logo img {
   width: 100%;
   height: 100%;
@@ -417,6 +421,11 @@ header #submenu #under li a {
   will-change: transform;
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
+}
+.align .introimage {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
 }
 #agentdetail p {
   color: #333;

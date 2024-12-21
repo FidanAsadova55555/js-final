@@ -28,7 +28,7 @@
                 </a>
             </div>
             <div  class="cartandburger">
-                <li id="cart-item"><a class="linkspart" href="#">Cart(0)</a></li>
+                <li id="cart-item"><button class="p-0"  style="outline: none;border: none;background-color: transparent;" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><a style="vertical-align: middle;" class="linkspart" href="#">Cart(<span class="quantity"></span>)</a></button></li>
 
                 <div class="burger-menu">
                 </div>
@@ -57,7 +57,7 @@
 
                     </li>
                     <li class="menu-li"><a class="links" href="../public/blogs.html">Blog</a></li>
-                    <li class="menu-li"><button  style="outline: none;border: none;background-color: transparent;" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><a class="links" href="#">Cart(0)</a></button></li>
+                    <li class="menu-li"><button  style="outline: none;border: none;background-color: transparent;" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><a style="vertical-align: middle;" class="links" href="#">Cart(<span class="quantity"></span>)</a></button></li>
  
                 </ul>
             </div>
@@ -102,7 +102,7 @@
 <div class="subtotal">Subtotal</div>
 <div class="total-price"></div>
                         </div>
-                      <button  type="button" class="menimbutonum">Shop now</button>
+                      <button  type="button" class="menimbutonum"><p>Continue to Checkout</p></button>
                     </div>
                   </div>
                 </div>
@@ -216,12 +216,12 @@ BLOGS            </div>
                  <div class="col-lg-2 col-md-3 col-sm-6">
                     <ul class="flist">
                         <li class="f-li" ><a class="fhead" href="">CMS</a></li>
-                        <li class="f-li"><a href="">Properties</a></li>
-                        <li class="f-li"><a href="">Properties Single</a></li>
-                        <li class="f-li"><a href="">Blog</a></li>
-                        <li class="f-li"><a href="">Blog Single</a></li>
-                        <li class="f-li"><a href="">Agents</a></li>
-                        <li class="f-li"><a href="">Agents Single</a></li>
+                        <li class="f-li"><a href="../public/explore.html">Properties</a></li>
+                        <li class="f-li"><a href="../public/propertydetail.html">Properties Single</a></li>
+                        <li class="f-li"><a href="../public/blogs.html">Blog</a></li>
+                        <li class="f-li"><a href="../public/blogDetail.html">Blog Single</a></li>
+                        <li class="f-li"><a href="../public/agents.html">Agents</a></li>
+                        <li class="f-li"><a href="../public/agentdetail.html">Agents Single</a></li>
                     </ul>
                  </div>
                  <div class="col-lg-2 col-md-3 col-sm-6">
@@ -262,5 +262,7 @@ BLOGS            </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script type="module" src="../src/js/blogdetail.js"></script>
+    <script type="module" src="../src/js/addtocart.js"></script>
+
 </body>
 </html>
