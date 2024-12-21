@@ -23,7 +23,6 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -104,7 +103,7 @@ header button {
   padding: 0 !important;
 }
 
-footer .fimage .home img, footer .footerlogo .flogoimg img, .notempty .cartitemimg img, #propertiesdetail .agentbox .agentphoto img, #propertiesdetail .prodetailimg img, .property-box .propertyimg img, #services .servicebox .servicelogo img, #agentdetail .agentbox .agentphoto img, #proces .procesright .procesimg img, #blogdetail .blogtextphoto img, #blogdetail .blogphoto img, #blogdetail .writer .hisphoto img, #myblogs .blogimg img, #slider .testimonials-thumb-wrap img, #why .whyimg img, #mission .missionimg img, #agentdetail .blogtextphoto img, #agentdetail .blogphoto img, #agentdetail .writer .hisphoto img, .align .introimage img, header .navbar .nav-left .logo img {
+footer .fimage .home img, footer .footerlogo .flogoimg img, .tableimg img, .notempty .cartitemimg img, #propertiesdetail .agentbox .agentphoto img, #propertiesdetail .prodetailimg img, .property-box .propertyimg img, #services .servicebox .servicelogo img, #agentdetail .agentbox .agentphoto img, #proces .procesright .procesimg img, #blogdetail .blogtextphoto img, #blogdetail .blogphoto img, #blogdetail .writer .hisphoto img, #myblogs .blogimg img, #slider .testimonials-thumb-wrap img, #why .whyimg img, #mission .missionimg img, #agentdetail .blogtextphoto img, #agentdetail .blogphoto img, #agentdetail .writer .hisphoto img, .align .introimage img, header .navbar .nav-left .logo img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -1951,6 +1950,34 @@ header #submenu #under li a {
 
 .modal-body {
   padding: 0;
+}
+
+.createlogo, .createonline {
+  border-radius: 5px;
+  border: 1px solid #e2e0db;
+  margin-top: 150px;
+  padding: 25px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 155px;
+}
+.createlogo form .placeforinput input:hover, .createlogo form .placeforinput input:focus, .createlogo form .placeforinput input:active, .createonline form .placeforinput input:hover, .createonline form .placeforinput input:focus, .createonline form .placeforinput input:active {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.align {
+  vertical-align: middle;
+}
+
+.tableimg {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+}
+.tableimg img {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 footer .footerlogo {
