@@ -57,16 +57,63 @@
 
                     </li>
                     <li class="menu-li"><a class="links" href="../public/blogs.html">Blog</a></li>
-                    <li class="menu-li"><a class="links" href="#">Cart(0)</a></li>
+                    <li class="menu-li"><button  style="outline: none;border: none;background-color: transparent;" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><a class="links" href="#">Cart(0)</a></button></li>
+ 
                 </ul>
             </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Your Cart</h5>
+                      <button style="outline: none;border: none;background-color: transparent;" type="button" class=" clickclose" data-bs-dismiss="modal" aria-label="Close"><i class="ri-close-line"></i></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- <div class="empty">   <p>No items found.
+                        </p></div> -->
+                   
+                    <!-- <div class="notempty">
+                        <div class="cartitemimg">
+                            <img src="https://cdn.prod.website-files.com/6704d32b156a64ece7cc9779/6709283c5fcf7ca778f668db_properties-thumb-2.jpg" alt="">
+                        </div>
+                        <div class="cartiteminfo">
+                            <div class="leftinfo">
+<div class="itemtitle">
+    Parkview estates
+
+</div>
+<input type="number" class="count">
+    
+</input>
+<div class="action">
+    Remove
+</div>
+                            </div>
+                            <div class="rightinfo">
+                                <div class="cart-price">
+                                    $<span>50,000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    </div>
+                    <div class="modal-footer">
+                        <div class="nettotal">
+<div class="subtotal">Subtotal</div>
+<div class="total-price"></div>
+                        </div>
+                      <button  type="button" class="menimbutonum">Shop now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <div class="nav-end">
-                <span id="exploreall" class="button"><p>Explore All</p></span>
+                <a href="../public/explore.html">                <span id="exploreall" class="button"><p>Explore All</p></span>
+                </a>
                 <span class="button"><p>Admin</p></span>
             </div>
         </nav>
     </header>
-
     <main>
         <section style="padding: 80px 0 70px 0;" id="intro"  class="align">
             <div class="introbutton">

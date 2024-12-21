@@ -136,9 +136,27 @@ Property for sale
    
     </div>
  </div>
-                </div>
-          `;
-        } else {
+                </div>`
+          ;
+          const btn = document.querySelector(".addtocart");
+          btn.addEventListener('click', (e) => {
+              e.preventDefault();
+              const propertyId = element?.id;
+          
+              fetch('http://localhost:3001/card', {
+                  method: "POST",
+                  headers: {
+                      'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify({ ...element, propertyId: propertyId })
+              }).then(res => res.json())
+              .then(data => {
+                  console.log(data);
+              })
+              .catch(error => console.error('Error adding to cart:', error));
+          });
+          
+    }else {
             console.error('Element with id "blogInfo" not found');
         }
     })
@@ -146,5 +164,3 @@ Property for sale
    
     
     
-    
-   
